@@ -1,8 +1,27 @@
 aid: elligohealthresearch
-name: Elligohealthresearch
-description: 'Elligohealthresearch is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elligohealthresearch.png
+name: Elligo Health Research
+description: 'Elligo Health Research is a healthcare-enabling clinical research organization
+  (CRO) that embeds clinical trials directly into real-world healthcare settings. Through
+  its proprietary IntElligo Research Stack and System of Accelerated Research (SOAR)
+  model, Elligo connects sponsors and CROs to known, diverse patient populations across
+  115+ hospitals and health systems, 200+ healthcare-based sites, and 100+ research-based
+  sites. Services span site networks, patient access and recruitment, decentralized
+  and hybrid trial solutions, site support and staffing, and concierge patient retention
+  and travel logistics. Backed by Norwest Venture Partners, Elligo is tracked as a
+  portfolio-lead in the API Evangelist network; it publishes no public API, developer
+  portal, or OpenAPI at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/elligohealthresearch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Clinical Research
+- Clinical Trials
+- CRO
+- Life Sciences
+- Patient Recruitment
+- Decentralized Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://elligohealthresearch.com
+  url: https://www.elligo.com
+- type: PrivacyPolicy
+  url: https://www.elligo.com/privacy-policy
+- type: Support
+  url: https://www.elligo.com/contact-us
+- type: Blog
+  url: https://www.elligo.com/resource-center
+- type: GitHubOrganization
+  url: https://github.com/Elligo
+- type: DomainSecurity
+  url: security/elligohealthresearch-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
